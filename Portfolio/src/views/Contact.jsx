@@ -1,43 +1,26 @@
 
-import React from "react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+    <section id="contact" className="relative ">
+      <div className="mx-5 my-2 flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="100%"
             height="100%"
             title="map"
             className="absolute inset-0"
-            frameBorder={0}
-            marginHeight={0}
-            marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                DIRECCIÓN
-              </h2>
-              <p className="mt-1">
-                97 Warren St. <br />
-                New York, NY 10007
-              </p>
-            </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                CORREO ELECTRÓNICO
+                EMAIL
               </h2>
               <a className="text-indigo-400 leading-relaxed">
-                reedbarger@email.com
+                agustinafer29@gmail.com
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                NÚMERO DE TELÉFONO
-              </h2>
-              <p className="leading-relaxed">123-456-7890</p>
             </div>
           </div>
         </div>
@@ -46,15 +29,14 @@ export default function Contact() {
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            ¡Contrátame!
+            ¡Hire Me!
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            Fill the form below with the details of your project, and I will get in touch as soon as possible
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
-              Nombre
+              Name
             </label>
             <input
               type="text"
@@ -65,7 +47,7 @@ export default function Contact() {
           </div>
           <div className="relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-gray-400">
-              Correo electrónico
+              Email
             </label>
             <input
               type="email"
@@ -78,7 +60,7 @@ export default function Contact() {
             <label
               htmlFor="message"
               className="leading-7 text-sm text-gray-400">
-              Mensaje
+              Message
             </label>
             <textarea
               id="message"
@@ -89,10 +71,10 @@ export default function Contact() {
           <button
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            Enviar
+            Send
           </button>
         </form>
       </div>
     </section>
-  );
+  )
 }

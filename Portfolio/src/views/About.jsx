@@ -10,11 +10,11 @@ function About() {
                 Hello there
               </h1>
             <div className="typewriter"> 
-            <h1 className="hidden lg:inline-block" >
+            <h1 className="hidden lg:inline-block sm:text-4xl text-3xl mb-4 font-medium" >
                 My name is Agustina Fernández{" "}  
                 </h1>
             </div>
-            <p className="mb-8 leading-relaxed">
+            <p className="mb-8 mt-8 font-medium sm:text-2xl leading-relaxed">
               Welcome! let me tell you a bit about myself. I am Full Stack Web
               developer with a preference for Front-End development.
             </p>
@@ -41,6 +41,7 @@ function About() {
             />
           </div>
         </div>
+        
       </section>
     </div>
   );

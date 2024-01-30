@@ -34,13 +34,6 @@ function About() {
               </a>
             </div>
           </div>
-          <div className="lg:w-1/3 g:w-1/3 md:w-1/2 w-5/6 ">
-            <img
-              className="object-cover object-center rounded"
-              alt="about Image"
-              src={aboutImage}
-            />
-          </div>
         </div>
       </section>
     </div>
